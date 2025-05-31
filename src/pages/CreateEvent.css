@@ -1,0 +1,63 @@
+.create-event-container {
+  max-width: 600px;
+  margin: 3rem auto;
+  background-color: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #1a2a3a;
+  text-align: center;
+}
+
+.event-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.event-form label {
+  margin: 0.5rem 0 0.3rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.event-form input,
+.event-form textarea {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.event-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.submit-btn {
+  background-color: #1e90ff;
+  color: white;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0f7ae5;
+}
+
+.message {
+  margin-bottom: 1rem;
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
